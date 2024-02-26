@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -68,4 +70,46 @@ h1 {
   background-repeat: no-repeat;
   background-size: 700%;
   animation: walkanim 1s infinite steps(7);
+}
+
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 250px;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #f1c40f;
+  width: 80px;
+  height: 80px;}
+
+.fa-sun {color: #f39c12;
+  width: 80px;
+  height: 80px;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(150px);
 }

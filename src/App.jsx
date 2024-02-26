@@ -1,10 +1,13 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+
+import NavigationHeader from "./Components/NavigationHeader";
+
 import ToDoApp from "./Pages/ToDoApp";
 import Home from "./Pages/Home";
 import CounterApp from "./Pages/CounterApp";
-import NavigationHeader from "./Components/NavigationHeader"; // Import NavigationHeader component
+import ToggleTheme from './Pages/ToggleTheme';
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="todoapp" element={<ToDoApp />} />
         <Route path="counterapp" element={<CounterApp />} />
+        <Route path="themeapp" element={<ToggleTheme />} />
       </Routes>
     </BrowserRouter>
   );
