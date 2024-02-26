@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className='container mt-32 mx-auto'>
 
-      <h1 className="font-bold mb-8 text-center text-white">mInI wEb ApP StOrE</h1>
+      <h1 className="font-bold mb-8 text-center text-white">ReactJS Mini App Store</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {projects.map(project => (
           <div key={project.id} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">

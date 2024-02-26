@@ -7,7 +7,7 @@ const NavigationHeader = () => {
             <div className="container mx-auto">
                 <nav className="flex justify-between items-center">
                     <h1 className="text-white font-bold text-xl">
-                        <Link to="/" className="text-white hover:text-gray-300">Mini Web App Store</Link></h1>
+                        <Link to="/" className="text-white hover:text-gray-300">MiniTools</Link></h1>
                     <ul className="flex space-x-4">
                         <li>
                             <Link to="/" className="text-white hover:text-gray-300">Home</Link>
