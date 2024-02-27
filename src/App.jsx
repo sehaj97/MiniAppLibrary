@@ -9,6 +9,7 @@ import Home from "./Pages/Home";
 import CounterApp from "./Pages/CounterApp";
 import ToggleTheme from './Pages/ToggleTheme';
 import FlagsApp from "./Pages/FlagsApp";
+import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="counterapp" element={<CounterApp />} />
         <Route path="themeapp" element={<ToggleTheme />} />
         <Route path="flagsapp" element={<FlagsApp />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
