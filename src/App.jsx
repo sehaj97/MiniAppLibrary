@@ -8,6 +8,7 @@ import ToDoApp from "./Pages/ToDoApp";
 import Home from "./Pages/Home";
 import CounterApp from "./Pages/CounterApp";
 import ToggleTheme from './Pages/ToggleTheme';
+import FlagsApp from "./Pages/FlagsApp";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="todoapp" element={<ToDoApp />} />
         <Route path="counterapp" element={<CounterApp />} />
         <Route path="themeapp" element={<ToggleTheme />} />
+        <Route path="flagsapp" element={<FlagsApp />} />
       </Routes>
     </BrowserRouter>
   );

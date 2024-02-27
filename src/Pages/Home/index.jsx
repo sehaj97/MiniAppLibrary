@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaClipboardList, FaCalculator, FaAdjust, FaQuestionCircle, FaCloudSun, FaQuoteRight, FaImages } from 'react-icons/fa';
+import { FaClipboardList, FaCalculator, FaAdjust, FaQuestionCircle, FaCloudSun, FaQuoteRight, FaImages, FaFlag } from 'react-icons/fa';
 
 const projects = [
   { id: 1, title: 'Todo List App', description: 'Create a simple todo list application where users can add and remove tasks.', link: '/todoapp', icon: <FaClipboardList /> },
   { id: 2, title: 'Counter App', description: 'Build a counter application where users can increment or decrement a counter value.', link: '/counterapp', icon: <FaCalculator /> },
   { id: 3, title: 'Theme Toggle App', description: 'Create a theme toggle application where users can switch between light and dark themes.', link: '/themeapp', icon: <FaAdjust /> },
-  { id: 4, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
-  { id: 5, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
-  { id: 6, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
-  { id: 7, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
+  { id: 4, title: 'Flags App', description: 'Display all the Flags with countries name by fetching data from https://countriesnow.space/', link: '/flagsapp', icon: <FaFlag /> },
+  { id: 5, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
+  { id: 6, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
+  { id: 7, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
+  { id: 8, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
 ];
 
 const Home = () => {
