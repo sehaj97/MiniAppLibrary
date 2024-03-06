@@ -11,6 +11,7 @@ const projects = [
   { id: 6, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
   { id: 7, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
   { id: 8, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
+  { id: 9, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaImages /> },
 ];
 
 const Home = () => {

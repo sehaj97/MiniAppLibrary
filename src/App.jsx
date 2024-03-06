@@ -10,6 +10,7 @@ import CounterApp from "./Pages/CounterApp";
 import ToggleTheme from './Pages/ToggleTheme';
 import FlagsApp from "./Pages/FlagsApp";
 import ErrorPage from "./Pages/ErrorPage";
+import ReusableComponents from "./Pages/ReusableComponents";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="counterapp" element={<CounterApp />} />
         <Route path="themeapp" element={<ToggleTheme />} />
         <Route path="flagsapp" element={<FlagsApp />} />
+        <Route path="reuse" element={<ReusableComponents />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
