@@ -7,11 +7,13 @@ const projects = [
   { id: 2, title: 'Counter App', description: 'Build a counter application where users can increment or decrement a counter value.', link: '/counterapp', icon: <FaCalculator /> },
   { id: 3, title: 'Theme Toggle App', description: 'Create a theme toggle application where users can switch between light and dark themes.', link: '/themeapp', icon: <FaAdjust /> },
   { id: 4, title: 'Flags App', description: 'Display all the Flags with countries name by fetching data from https://countriesnow.space/', link: '/flagsapp', icon: <FaFlag /> },
-  { id: 5, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
-  { id: 6, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
-  { id: 7, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
-  { id: 8, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
-  { id: 9, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaImages /> },
+  { id: 5, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaImages /> },
+  { id: 6, title: 'Image Selector', description: 'A simple app for selecting image from your machine to demo use ref ', link: '/imagepicker', icon: <FaImages /> },
+
+  { id: 55, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
+  { id: 66, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
+  { id: 77, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
+  { id: 88, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
 ];
 
 const Home = () => {
