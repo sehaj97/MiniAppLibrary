@@ -8,8 +8,13 @@ const Imagepicker = () => {
 
     const handleImageChange = (event) => {
         const file = event.target.files[0];
-        console.log(file)
-        console.log(event)
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = () => {
+                setSelectedImage(reader.result);
+            };
+            reader.readAsDataURL(file);
+        }
     };
 
     const handleClick = () => {
