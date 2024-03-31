@@ -35,8 +35,8 @@ const PalindromeChecker = () => {
                     <input type="text" id="text-input" value={inputValue} onChange={handleChange} /><br />
                     <ButtonUi id="check-btn" type="submit">Check</ButtonUi>
                 </form>
-                <p className="mt-6">{(isSubmitted && isPalindrome) && (`${inputValue.replace(/[^a-zA-Z]/g, '').toLowerCase()} is a palindrome`)}</p>
-                <p className="mt-6">{(isSubmitted && !isPalindrome) && (`${inputValue.replace(/[^a-zA-Z]/g, '').toLowerCase()} is not a palindrome`)}</p>
+                <p className="mt-6">{(isSubmitted && isPalindrome) && (`${inputValue} is a palindrome`)}</p>
+                <p className="mt-6">{(isSubmitted && !isPalindrome) && (`${inputValue} is not a palindrome`)}</p>
             </div>
         </div>
     );
