@@ -12,6 +12,7 @@ import FlagsApp from "./Pages/FlagsApp";
 import ErrorPage from "./Pages/ErrorPage";
 import ReusableComponents from "./Pages/ReusableComponents";
 import Imagepicker from "./Pages/Imagepicker";
+import Palindromechecker from "./Pages/Palindromechecker";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Route path="flagsapp" element={<FlagsApp />} />
         <Route path="reuse" element={<ReusableComponents />} />
         <Route path="imagepicker" element={<Imagepicker />} />
+        <Route path="palindrome" element={<Palindromechecker />} />
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

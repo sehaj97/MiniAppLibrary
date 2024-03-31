@@ -9,6 +9,7 @@ const projects = [
   { id: 4, title: 'Flags App', description: 'Display all the Flags with countries name by fetching data from https://countriesnow.space/', link: '/flagsapp', icon: <FaFlag /> },
   { id: 5, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaImages /> },
   { id: 6, title: 'Image Selector', description: 'A simple app for selecting image from your machine to demo use ref ', link: '/imagepicker', icon: <FaImages /> },
+  { id: 7, title: 'Palindrome Checker', description: 'A simple app to check if string is palindrome or not', link: '/palindrome', icon: <FaImages /> },
 
   { id: 55, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
   { id: 66, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
