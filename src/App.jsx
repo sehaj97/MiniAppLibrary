@@ -13,6 +13,7 @@ import ErrorPage from "./Pages/ErrorPage";
 import ReusableComponents from "./Pages/ReusableComponents";
 import Imagepicker from "./Pages/Imagepicker";
 import Palindromechecker from "./Pages/Palindromechecker";
+import DiceGame from "./Pages/DiceGame";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="reuse" element={<ReusableComponents />} />
         <Route path="imagepicker" element={<Imagepicker />} />
         <Route path="palindrome" element={<Palindromechecker />} />
+        <Route path="dicegame" element={<DiceGame />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
