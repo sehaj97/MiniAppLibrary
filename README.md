@@ -10,3 +10,4 @@ This is a mini app library. All the apps are created using react js. Each app ha
 4. **Flags App** - Displays national flags with their corresponding country names.
 5. **UI lib** - Showcases highly reusable components within the project.
 6. **Image Selector** - A basic tool for selecting images from a user's device.
+7. **Palindrome Checker** - Determines whether a string is a palindrome.
