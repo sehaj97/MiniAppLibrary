@@ -9,3 +9,4 @@ This is a mini app library. All the apps are created using react js. Each app ha
 3. **Theme Toggle App** - Allows users to switch between light and dark interface themes.
 4. **Flags App** - Displays national flags with their corresponding country names.
 5. **UI lib** - Showcases highly reusable components within the project.
+6. **Image Selector** - A basic tool for selecting images from a user's device.
