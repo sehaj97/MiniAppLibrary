@@ -11,11 +11,11 @@ const projects = [
   { id: 6, title: 'Image Selector', description: 'A simple app for selecting image from your machine to demo use ref ', link: '/imagepicker', icon: <FaImages /> },
   { id: 7, title: 'Palindrome Checker', description: 'A simple app to check if string is palindrome or not', link: '/palindrome', icon: <FaImages /> },
   { id: 8, title: 'Dice Game', description: 'Random Dice 1v1 game. Highest Number Wins', link: '/dicegame', icon: <FaDice /> },
+  { id: 9, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/imageslider', icon: <FaImages /> },
 
   { id: 55, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
   { id: 66, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },
   { id: 77, title: 'Random Quote Generator', description: 'Create an app that fetches and displays random quotes from an API.', link: '/quoteapp', icon: <FaQuoteRight /> },
-  { id: 88, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/sliderapp', icon: <FaImages /> },
 ];
 
 const Home = () => {

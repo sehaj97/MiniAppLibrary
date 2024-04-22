@@ -26,16 +26,14 @@ const DiceGame = () => {
     const [playerTwo, setPlayerTwo] = useState()
 
     useEffect(() => {
-        let gameResult;
         if (playerOne !== undefined && playerTwo !== undefined) {
             if (playerOne > playerTwo) {
-                gameResult = "Player one wins!";
+                setResult("Player one wins!")
             } else if (playerOne < playerTwo) {
-                gameResult = "Player two wins!";
+                setResult("Player two wins!")
             } else {
-                gameResult = "It's a tie.";
+                setResult("It's a tie.")
             }
-            setResult(gameResult);
         }
     }, [playerOne, playerTwo]);
 
