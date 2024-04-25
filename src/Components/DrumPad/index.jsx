@@ -1,25 +1,26 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
-function DrumPad({ triggerKey, soundId, soundSrc, handlePlay, drumclass }) {
-
-  const btnRef = useRef(null)
-  function handleKeyDown(e) {
-    if (e.key.toUpperCase() === triggerKey.charCodeAt(0)) {
-      handlePlay(soundId, soundSrc);
-    }
-    console.log(e.key)
-  }
+function DrumPad({ triggerKey, soundId, soundSrc, handlePlay, drumclass, imgPath }) {
   useEffect(() => {
-    // Focus the div when the component mounts
-    if (btnRef.current) {
-      btnRef.current.focus();
+    function handleKeyDown(e) {
+      if (e.key.toUpperCase() === triggerKey.toUpperCase()) {
+        handlePlay(soundId, soundSrc);
+      }
     }
+    window.addEventListener('keydown', handleKeyDown);
+
   }, []);
 
   return (
-    <button ref={btnRef} onClick={() => handlePlay(soundId, soundSrc)} onKeyDown={(e) => handleKeyDown(e)} className={drumclass}>
+    <button
+      onClick={() => handlePlay(soundId, soundSrc)}
+      className={`${drumclass} bg-no-repeat bg-center bg-cover text-white font-bold py-2 px-4`}
+      style={{ backgroundImage: `url(${imgPath})`, backgroundSize: 'contain', minHeight: '100px', minWidth: '100px' }}
+      tabIndex="0"
+    >
       {triggerKey}
     </button>
+
   );
 }
 
