@@ -7,7 +7,7 @@ const projects = [
   { id: 2, title: 'Counter App', description: 'Build a counter application where users can increment or decrement a counter value.', link: '/counterapp', icon: <FaCalculator /> },
   { id: 3, title: 'Theme Toggle App', description: 'Create a theme toggle application where users can switch between light and dark themes.', link: '/themeapp', icon: <FaAdjust /> },
   { id: 4, title: 'Flags App', description: 'Display all the Flags with countries name by fetching data from https://countriesnow.space/', link: '/flagsapp', icon: <FaFlag /> },
-  { id: 5, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaMobile /> },
+  { id: 5, title: 'UI lib', description: 'this just a view of ui components that reusable through out this mini app, this is showing the highly reusable components', link: '/reuse', icon: <FaMobile /> },
   { id: 6, title: 'Image Selector', description: 'A simple app for selecting image from your machine to demo use ref ', link: '/imagepicker', icon: <FaImages /> },
   { id: 7, title: 'Palindrome Checker', description: 'A simple app to check if string is palindrome or not', link: '/palindrome', icon: <FaWordpress /> },
   { id: 8, title: 'Dice Game', description: 'Random Dice 1v1 game. Highest Number Wins', link: '/dicegame', icon: <FaDice /> },
