@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaClipboardList, FaCalculator, FaAdjust, FaQuestionCircle, FaCloudSun, FaQuoteRight, FaImages, FaFlag, FaDice } from 'react-icons/fa';
+import { FaClipboardList, FaCalculator, FaAdjust, FaQuestionCircle, FaCloudSun, FaQuoteRight, FaImages, FaFlag, FaDice, FaWordpress, FaMobile } from 'react-icons/fa';
 
 const projects = [
   { id: 1, title: 'Todo List App', description: 'Create a simple todo list application where users can add and remove tasks.', link: '/todoapp', icon: <FaClipboardList /> },
   { id: 2, title: 'Counter App', description: 'Build a counter application where users can increment or decrement a counter value.', link: '/counterapp', icon: <FaCalculator /> },
   { id: 3, title: 'Theme Toggle App', description: 'Create a theme toggle application where users can switch between light and dark themes.', link: '/themeapp', icon: <FaAdjust /> },
   { id: 4, title: 'Flags App', description: 'Display all the Flags with countries name by fetching data from https://countriesnow.space/', link: '/flagsapp', icon: <FaFlag /> },
-  { id: 5, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaImages /> },
+  { id: 5, title: 'UI lib', description: 'Look into the code, this is showing the highly reusable components', link: '/reuse', icon: <FaMobile /> },
   { id: 6, title: 'Image Selector', description: 'A simple app for selecting image from your machine to demo use ref ', link: '/imagepicker', icon: <FaImages /> },
-  { id: 7, title: 'Palindrome Checker', description: 'A simple app to check if string is palindrome or not', link: '/palindrome', icon: <FaImages /> },
+  { id: 7, title: 'Palindrome Checker', description: 'A simple app to check if string is palindrome or not', link: '/palindrome', icon: <FaWordpress /> },
   { id: 8, title: 'Dice Game', description: 'Random Dice 1v1 game. Highest Number Wins', link: '/dicegame', icon: <FaDice /> },
   { id: 9, title: 'Image Slider App', description: 'Develop an image slider application where users can cycle through a collection of images.', link: '/imageslider', icon: <FaImages /> },
+  { id: 10, title: 'Todo List App V2', description: 'Create a simple todo list application where users can add and remove tasks.', link: '/todoappv2', icon: <FaClipboardList /> },
 
   { id: 55, title: 'Quiz App', description: 'Develop a quiz application where users can answer multiple-choice questions.', link: '/quizapp', icon: <FaQuestionCircle /> },
   { id: 66, title: 'Weather App', description: 'Build a simple weather application that displays the current weather for a specific location.', link: '/weatherapp', icon: <FaCloudSun /> },

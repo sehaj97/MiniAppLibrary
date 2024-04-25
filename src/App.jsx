@@ -15,6 +15,7 @@ import Imagepicker from "./Pages/Imagepicker";
 import Palindromechecker from "./Pages/Palindromechecker";
 import DiceGame from "./Pages/DiceGame";
 import ImageSlider from "./Pages/ImageSlider";
+import ToDoAppV2 from "./Pages/TodoAppV2";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="palindrome" element={<Palindromechecker />} />
         <Route path="dicegame" element={<DiceGame />} />
         <Route path="imageslider" element={<ImageSlider />} />
+        <Route path="todoappv2" element={<ToDoAppV2 />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
