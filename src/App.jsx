@@ -16,6 +16,7 @@ import Palindromechecker from "./Pages/Palindromechecker";
 import DiceGame from "./Pages/DiceGame";
 import ImageSlider from "./Pages/ImageSlider";
 import ToDoAppV2 from "./Pages/TodoAppV2";
+import DrumKit from "./Pages/DrumKit";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="todoapp" element={<ToDoApp />} />
+        <Route path="drumdrum" element={<DrumKit />} />
         <Route path="counterapp" element={<CounterApp />} />
         <Route path="themeapp" element={<ToggleTheme />} />
         <Route path="flagsapp" element={<FlagsApp />} />
